@@ -672,14 +672,7 @@ function documentReadyInit() {
 	// vector map
 	if (jQuery().vectorMap) {
 		var offices = [
-			{coords: [51.91, 19.15], country: 'Poland', amount: '13'},
-			{coords: [56.13, -106.34], country: 'Canada', amount: '56'},
-			{coords: [37.09, -95.71], country: 'USA', amount: '34'},
-			{coords: [-14.23, -51.92], country: 'Brazil', amount: '10'},
-			{coords: [28.03, 1.66], country: 'Algeria', amount: '3'},
-			{coords: [35.86, 104.16], country: 'China', amount: '40'},
-			{coords: [-25.27, 133.77], country: 'Australia', amount: '35'},
-			{coords: [61.52, 105.32], country: 'Russia', amount: '20'}
+			{coords: [23.09, -100.71], country: 'México'}
 		];
 		jQuery('#offices-map').vectorMap({
 			map: 'world_merc',
